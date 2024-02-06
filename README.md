@@ -9,3 +9,5 @@ old-faithful-analysis.py reads data from the 'faithful.csv' file and generates a
 correlation.py calculates the correlation between two variables, eruption time and waiting time, in the Old Faithful geyser dataset. The code reads the dataset using pandas, converts columns to numpy arrays, and centers the data. Then, it calculates the correlation using the formula Corr(x,y) = <x,y>/|X||Y| and outputs the result. This code can be useful in understanding the relationship between variables and identifying patterns in the data. 
 
 Regression-of-Old-Faithful-Data.py reads two variables, 'eruptions' and 'waiting', and calculates the linear regression line of 'waiting' on 'eruptions' using the ordinary least squares method. The code then plots the original data points along with the regression line. Finally, it calculates the R-squared value of the regression model, which measures the proportion of variance in the dependent variable that is explained by the independent variable. The slope and y-intercept of the regression line, as well as the R-squared value, are printed as output.
+
+THis works from git ssh connection.
